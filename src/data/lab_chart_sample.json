@@ -1,0 +1,87 @@
+{
+    "type": "doc",
+    "content": [
+        {
+            "type": "heading",
+            "attrs": {
+                "textAlign": "left",
+                "level": 2
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "1.0 Initial Observations"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "attrs": {
+                "textAlign": "left"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "The input variables show a stochastic distribution over time t. This behavior suggests a non-linear relationship in the latent space."
+                }
+            ]
+        },
+        {
+            "type": "chart",
+            "attrs": {
+                "chartType": "area",
+                "data": [
+                    {
+                        "t": 0,
+                        "val": 10
+                    },
+                    {
+                        "t": 1,
+                        "val": 15
+                    },
+                    {
+                        "t": 2,
+                        "val": 8
+                    },
+                    {
+                        "t": 3,
+                        "val": 22
+                    },
+                    {
+                        "t": 4,
+                        "val": 18
+                    },
+                    {
+                        "t": 5,
+                        "val": 35
+                    },
+                    {
+                        "t": 6,
+                        "val": 25
+                    }
+                ],
+                "config": {
+                    "xAxisKey": "t",
+                    "dataKeys": [
+                        "val"
+                    ],
+                    "colors": [
+                        "#10b981"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "paragraph",
+            "attrs": {
+                "textAlign": "left"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Fig 1.1: Signal amplitude vs Time."
+                }
+            ]
+        }
+    ]
+}

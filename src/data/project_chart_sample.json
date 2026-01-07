@@ -1,0 +1,63 @@
+{
+    "type": "doc",
+    "content": [
+        {
+            "type": "heading",
+            "attrs": {
+                "textAlign": "left",
+                "level": 2
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Performance Metrics"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "attrs": {
+                "textAlign": "left"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Post-optimization, the system throughput increased by 300% while reducing latency by half."
+                }
+            ]
+        },
+        {
+            "type": "chart",
+            "attrs": {
+                "chartType": "bar",
+                "data": [
+                    {
+                        "metric": "Q1",
+                        "val": 120
+                    },
+                    {
+                        "metric": "Q2",
+                        "val": 250
+                    },
+                    {
+                        "metric": "Q3",
+                        "val": 400
+                    },
+                    {
+                        "metric": "Q4",
+                        "val": 580
+                    }
+                ],
+                "config": {
+                    "xAxisKey": "metric",
+                    "dataKeys": [
+                        "val"
+                    ],
+                    "colors": [
+                        "#3b82f6"
+                    ]
+                }
+            }
+        }
+    ]
+}
