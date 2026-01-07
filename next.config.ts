@@ -22,11 +22,6 @@ const nextConfig = {
   experimental: {
     // typedRoutes: true,
     // serverComponentsExternalPackages: ["@tremor/react"],
-
-    // Silence "Multiple lockfiles found" warning by explicitly setting the root
-    turbopack: {
-      root: __dirname,
-    },
   },
 };
 
